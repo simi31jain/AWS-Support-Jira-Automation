@@ -16,10 +16,12 @@ Adding Comments to Jira Issues: Communications/messages associated with AWS Supp
 Setup
 To deploy and configure this Lambda function, follow these steps:
 
-# AWS Lambda Setup: Create a Lambda function in the AWS Management Console and paste the code provided in the lambda_function.py file.
+# AWS Lambda Setup: 
+Create a Lambda function in the AWS Management Console and paste the code provided in the lambda_function.py file.
 Environment Variables: Set up the necessary environment variables for your Jira instance, including JIRA_USERNAME, API_TOKEN, and PROJECT_KEY.
 
-# Permissions: Ensure that the Lambda function has the required IAM permissions to interact with AWS Support and Jira APIs.
+# Permissions: 
+Ensure that the Lambda function has the required IAM permissions to interact with AWS Support and Jira APIs.
 CloudWatch Event Rule: Create CloudWatch Event Rules to trigger the Lambda function based on AWS Support Case events (CreateCase and AddCommunicationToCase).
 Configuration
 Adjust the configuration parameters within the Lambda function code to match your environment and requirements. These include Jira API endpoint URLs, issue types, and project keys.
